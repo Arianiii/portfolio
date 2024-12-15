@@ -362,6 +362,7 @@ box-shadow: 0 0 25px var(--main-color),
     margin-top: 40px;
     font-size: 16px;
 }
+
 @media(max-width:1024px){
     #menu-icon{
         display: block;
@@ -414,33 +415,21 @@ box-shadow: 0 0 25px var(--main-color),
         width: 52vm;
 
     }
-    .contact from{
+    .contact form{
         flex-direction: column;
     }
+    .typing-container {
+        align-items: center;
+        text-align: center;
+
+    }
+    .typing-text {
+        align-items: center;
+        text-align: center;
+    }
+
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -478,4 +467,33 @@ box-shadow: 0 0 25px var(--main-color),
       border-color: transparent; /* Makes the cursor disappear every half cycle */
     }
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
